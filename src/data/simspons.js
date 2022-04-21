@@ -1,4 +1,4 @@
-[
+const simpsons = [
     {
         "id": 1,
         "name": "Children",
@@ -40332,3 +40332,5 @@
         "gender": "m"
     }
 ]
+
+export default simpsons;
