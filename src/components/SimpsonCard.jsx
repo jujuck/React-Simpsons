@@ -1,12 +1,6 @@
 import React from 'react'
 
-const SimpsonCard = () => {
-  const simpson = {
-    gender: "",
-    id: 1,
-    name: "Children",
-    normalized_name: "children"
-  }
+const SimpsonCard = ({ simpson }) => {
   return (
     <div>
       <h4>{simpson.name}</h4>

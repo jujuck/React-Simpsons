@@ -9,7 +9,7 @@ const SimpsonList = () => {
       <h2>
         SimpsonList
       </h2>
-      <SimpsonCard />
+      <SimpsonCard simpson={simpsons[1]} />
     </div>
   )
 }
