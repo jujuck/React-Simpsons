@@ -1,5 +1,6 @@
 import './App.css'
-import SimpsonList from './components/SimpsonList'
+import SimpsonList from './components/SimpsonList';
+import Footer from './components/Footer';
 
 function App() {
 
@@ -7,6 +8,7 @@ function App() {
     <div className="App">
       <h1>Les Simpsons</h1>
       <SimpsonList />
+      <Footer />
     </div>
   )
 }
