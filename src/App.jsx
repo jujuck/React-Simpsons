@@ -1,7 +1,7 @@
 import './App.css'
 import SimpsonList from './components/SimpsonList';
 import Footer from './components/Footer';
-import Article from './components/Article';
+import Article from './components/Article/Article';
 
 function App() {
 

@@ -1,6 +1,6 @@
 import React from 'react';
 
-import articles from '../data/article';
+import articles from '../../data/article';
 
 const Article = ({ index, displayButton }) => {
   return (
