@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import { Link } from 'react-router-dom';
 
 const SimpsonCard = ({ simpson }) => {
 
@@ -10,9 +11,8 @@ const SimpsonCard = ({ simpson }) => {
         <h6>{simpson.id}</h6>
         <button
           className="btn btn-success"
-          onClick={() => alert(`Hello World, I am ${simpson.normalized_name}`)}
         >
-          CLick On {simpson.name}
+          <Link to={`/simpson/${simpson.id}`}>CLick On {simpson.name}</Link>
         </button>
       </div>
     </div>
