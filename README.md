@@ -24,7 +24,7 @@ Suit le projet step by step dans le readme et trouve la correction par commit en
 - 6/ Modification de l'alerte en submit en affichant le message de l'*user*
 
 ## Part Three FilterOSfSimpson
-- 1/ Ajout d'un input dans le composant SimpsnList avec son label
+- 1/ Ajout d'un input dans le composant SimpsonList avec son label
 - 2/ Connexion de l'input à un state *search*
 - 3/ Ajout d'une fonction de filtre sur le `name` ou l'`ìd`
 
