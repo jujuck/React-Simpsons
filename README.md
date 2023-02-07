@@ -11,7 +11,7 @@ Suit le projet step by step dans le readme et trouve la correction par commit en
 - 1/ Création du composant Simpson Liste et mise en place dans le `App.jsx`
 - 2/ Import du jeux de data dans le composant
 - 3/ Mise en place du template à partir de l'élément *[0]* du jeux de données
-- 4/ Création du composant Simpson Card et transfert du tempaplate
+- 4/ Création du composant Simpson Card et transfert du template
 - 5/ Import du composant Simpson Card dans simpson liste, mise en place avec sa props
 - 6/ Boucle sur le jeux de données pour afficher les 10 premiers simpson
 
